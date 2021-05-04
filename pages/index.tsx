@@ -6,11 +6,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Notizen +</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
+        <div>Notizen +</div>
         <Button primary label="Primary" />
         <Button primary={false} label="Secondary" />
       </main>
