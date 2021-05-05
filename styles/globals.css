@@ -1,3 +1,10 @@
+:root {
+  --first: #fe48ce;
+  --second: #00dcff;
+  --third: #fff716;
+  --fourth: #16ff6d;
+}
+
 html,
 body {
   padding: 0;
