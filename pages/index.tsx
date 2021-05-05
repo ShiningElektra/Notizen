@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Button from "../components/buttons/Button";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,9 +10,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>Notizen +</div>
-        <Button primary label="Primary" />
-        <Button primary={false} label="Secondary" />
+        <div className={styles.title}>Notizen</div>
+        <img className={styles.logo} src="/logo.png" />
+        <div className={styles.register}>
+          <div className={styles.register}></div>
+          <div className={styles.register}></div>
+          <div className={styles.register}></div>
+        </div>
+        {/* <Button primary label="Primary" />
+        <Button primary={false} label="Secondary" /> */}
       </main>
     </div>
   );
