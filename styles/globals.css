@@ -1,3 +1,10 @@
+:root {
+  --firstRegister: #fe48ce;
+  --secondRegister: #00dcff;
+  --thirdRegister: #fff716;
+  --fourthRegister: #16ff6d;
+}
+
 html,
 body {
   padding: 0;

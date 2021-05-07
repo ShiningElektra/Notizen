@@ -1,18 +1,27 @@
 import Head from "next/head";
-import Button from "../components/buttons/Button";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Notizen +</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Button primary label="Primary" />
-        <Button primary={false} label="Secondary" />
+      <main>
+        <Link href="/notes">
+          <div className={styles.link}>
+            <div className={styles.title}>Notizen</div>
+            <img className={styles.logo} src="/logo.png" />
+          </div>
+        </Link>
+        <div className={styles.register}>
+          <div className={styles.register}></div>
+          <div className={styles.register}></div>
+          <div className={styles.register}></div>
+        </div>
       </main>
     </div>
   );
