@@ -22,8 +22,6 @@ export default function Home() {
           <div className={styles.register}></div>
           <div className={styles.register}></div>
         </div>
-        {/* <Button primary label="Primary" />
-        <Button primary={false} label="Secondary" /> */}
       </main>
     </div>
   );
