@@ -7,7 +7,7 @@
   align-items: center;
   margin: 1rem;
   margin-right: 2.4rem;
-  background-color: var(--first);
+  background-color: var(--firstRegister);
 }
 .register {
   position: absolute;
@@ -18,7 +18,7 @@
   height: 10rem;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: var(--first);
+  background-color: var(--firstRegister);
 }
 .register div {
   position: relative;
@@ -26,13 +26,13 @@
   top: 10rem;
 }
 .register div:nth-child(1) {
-  background-color: var(--second);
+  background-color: var(--secondRegister);
 }
 .register div:nth-child(2) {
-  background-color: var(--third);
+  background-color: var(--thirdRegister);
 }
 .register div:nth-child(3) {
-  background-color: var(--fourth);
+  background-color: var(--fourthRegister);
 }
 .title {
   color: white;
@@ -47,7 +47,7 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
   grid-gap: 0.5rem;
-  background-color: var(--first);
+  background-color: var(--firstRegister);
 }
 .link :hover {
   box-shadow: 8px 8px 30px 1px rgba(150, 13, 131, 0.199);

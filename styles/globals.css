@@ -1,8 +1,8 @@
 :root {
-  --first: #fe48ce;
-  --second: #00dcff;
-  --third: #fff716;
-  --fourth: #16ff6d;
+  --firstRegister: #fe48ce;
+  --secondRegister: #00dcff;
+  --thirdRegister: #fff716;
+  --fourthRegister: #16ff6d;
 }
 
 html,
