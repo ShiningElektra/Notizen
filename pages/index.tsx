@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,9 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={styles.title}>Notizen</div>
-        <img className={styles.logo} src="/logo.png" />
+      <main>
+        <Link href="/notes">
+          <div className={styles.link}>
+            <div className={styles.title}>Notizen</div>
+            <img className={styles.logo} src="/logo.png" />
+          </div>
+        </Link>
         <div className={styles.register}>
           <div className={styles.register}></div>
           <div className={styles.register}></div>
