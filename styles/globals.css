@@ -1,8 +1,12 @@
 :root {
-  --firstRegister: #fe48ce;
-  --secondRegister: #00dcff;
-  --thirdRegister: #fff716;
-  --fourthRegister: #16ff6d;
+  --firstRegister: rgb(254, 72, 206);
+  --firstRegisterLight: rgb(255, 115, 218);
+  --secondRegister: rgb(0, 220, 255);
+  --secondRegisterLight: rgb(182, 245, 255);
+  --thirdRegister: rgb(255, 247, 22);
+  --thirdRegisterLight: rgb(255, 251, 133);
+  --fourthRegister: rgb(22, 255, 109);
+  --fourthRegisterLight: rgb(108, 255, 162);
 }
 
 html,
