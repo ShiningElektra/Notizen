@@ -11,6 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
+        {/* hier kommt eine zeitgeschaltete weiterleitung hin, aber ich weiß noch nicht genau wie
+        {window.setTimeout('location.href = "/notes"', 2000)} */}
         <Link href="/notes">
           <div className={styles.link}>
             <div className={styles.title}>Notizen</div>

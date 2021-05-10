@@ -1,5 +1,5 @@
-import React from "react";
+import Register from "../components/buttons/register/Register";
 
 export default function Notes() {
-  return <div></div>;
+  return <Register />;
 }
